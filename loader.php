@@ -76,7 +76,7 @@ function bp_rbe_ifa_loader() {
 		}
 
 		// Attachment time!
-		$provider = 'BP_RBE\\Inbound\\ForumAttachments\\' . bp_rbe_get_setting( 'inbound-provider' );
+		$provider = 'BP_RBE\\Inbound\\ForumAttachments\\' . ucfirst( bp_rbe_get_setting( 'inbound-provider' ) );
 		if ( class_exists( $provider ) ) {
 			$provider = new $provider( $retval, $i );
 			return $provider->parse();
