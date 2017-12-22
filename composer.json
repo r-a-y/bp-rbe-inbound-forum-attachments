@@ -1,0 +1,20 @@
+{
+	"name" : "r-a-y/bp-rbe-inbound-forum-attachments",
+	"description" : "Inbound Forum Attachments addon for the BP Reply By Email plugin.",
+	"type" : "wordpress-plugin",
+	"authors" : [{
+			"name" : "r-a-y"
+		}
+	],
+	"keywords" : [
+		"buddypress"
+	],
+	"homepage" : "https://github.com/r-a-y/bp-rbe-inbound-forum-attachments",
+	"license" : [
+		"GPL-2.0+"
+	],
+	"require" : {
+		"composer/installers" : "~1",
+		"bashkarev/email" : "~1"
+	}
+}
