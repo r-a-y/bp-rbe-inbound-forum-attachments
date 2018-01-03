@@ -102,7 +102,7 @@ abstract class Base {
 
 		$attachment_data = $attachment_errors = array();
 
-		foreach ($email->getAttachments() as $attachment) {
+		foreach ( $email->getAttachments() as $attachment ) {
 			$save = Attachment::save_attachment( array(
 				'name'   => $attachment->getFileName(),
 				'data'   => $attachment->getStream()->getContents(),
@@ -152,7 +152,7 @@ abstract class Base {
 		$attachment_data = $attachment_errors = array();
 
 		// @todo This is all theoretical at the moment.
-		foreach ( $attachments as $attachment) {
+		foreach ( $attachments as $attachment ) {
 			$save = array();
 
 			// Inline data requires saving to tmp directory.
