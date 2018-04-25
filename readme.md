@@ -14,10 +14,10 @@ Currently, SparkPost is supported.  SendGrid and Postmark will be added at a lat
 
 Requirements
 -
-* BP Reply By Email (with [Inbound mode enabled](https://github.com/r-a-y/bp-reply-by-email/wiki/Starter-Guide#1-inbound-email-mode)).  Use 1.0-RC6 or the bleeding version of RBE.  Currently only supports SparkPost.
+* BP Reply By Email (with [Inbound mode enabled](https://github.com/r-a-y/bp-reply-by-email/wiki/Starter-Guide#1-inbound-email-mode)).  Use 1.0-RC6 or higher.  Currently only supports SparkPost.
 * BuddyPress
 * bbPress (with [BuddyPress group support enabled](https://codex.buddypress.org/getting-started/installing-group-and-sitewide-forums/#b-set-up-group-and-sitewide-forums))
-* BuddyPress Group Email Subscription.  [Use the bleeding version on GitHub](https://github.com/boonebgorges/buddypress-group-email-subscription) or [apply this code snippet](https://github.com/boonebgorges/buddypress-group-email-subscription/commit/6891ba021f885dc577ae7439537192a0790958f4) somewhere.
+* BuddyPress Group Email Subscription v3.8.2 or higher.
 * GD bbPress Attachments
 * PHP 5.4+ when using SparkPost.
 
