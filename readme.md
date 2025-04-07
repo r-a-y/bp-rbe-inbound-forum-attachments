@@ -1,6 +1,6 @@
 # BP Reply By Email - Inbound Forum Attachments #
 
-This is a companion plugin for [BP Reply By Email](https://github.com/r-a-y/bp-reply-by-email) (RBE), supporting forum attachments when replying by email when using RBE's Inbound Mode.  Currently only supports SparkPost.
+This is a companion plugin for [BP Reply By Email](https://github.com/r-a-y/bp-reply-by-email) (RBE), supporting forum attachments when replying by email when using RBE's Inbound Mode.
 
 This plugin was developed for the [CUNY Academic Commons](http://commons.gc.cuny.edu).  Licensed under the GPLv2 or later.
 
@@ -10,11 +10,11 @@ As of v1.0-RC6, RBE will add forum attachment support when replying by email, bu
 https://github.com/r-a-y/bp-reply-by-email/issues/104
 
 This plugin allows those using RBE with Inbound Mode to also add attachments when replying to forum emails.
-Currently, SparkPost is supported.  SendGrid and Postmark will be added at a later date.
+Currently, SparkPost and Postmark are supported. SendGrid will be added at a later date.
 
 Requirements
 -
-* BP Reply By Email (with [Inbound mode enabled](https://github.com/r-a-y/bp-reply-by-email/wiki/Starter-Guide#1-inbound-email-mode)).  Use 1.0-RC6 or higher.  Currently only supports SparkPost.
+* BP Reply By Email (with [Inbound mode enabled](https://github.com/r-a-y/bp-reply-by-email/wiki/Starter-Guide#1-inbound-email-mode)). Use 1.0-RC6 or higher. Currently only supports SparkPost and Postmark.
 * BuddyPress
 * bbPress (with [BuddyPress group support enabled](https://codex.buddypress.org/getting-started/installing-group-and-sitewide-forums/#b-set-up-group-and-sitewide-forums))
 * BuddyPress Group Email Subscription v3.8.2 or higher.
