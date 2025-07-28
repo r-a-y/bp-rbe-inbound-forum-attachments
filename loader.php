@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: BP Reply By Email - Inbound Forum Attachments
-Description: Attachment support when replying by email to bbPress forum items. Requires GD bbPress Attachments, bbPress and RBE in Inbound mode. Currently supports SparkPost.
+Description: Attachment support when replying by email to bbPress forum items. Requires GD bbPress Attachments, bbPress and RBE in Inbound mode.
 Author: r-a-y
 Author URI: http://profiles.wordpress.org/r-a-y
 Version: 0.1-alpha

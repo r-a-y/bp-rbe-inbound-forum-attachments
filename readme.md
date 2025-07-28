@@ -10,7 +10,7 @@ As of v1.0-RC6, RBE will add forum attachment support when replying by email, bu
 https://github.com/r-a-y/bp-reply-by-email/issues/104
 
 This plugin allows those using RBE with Inbound Mode to also add attachments when replying to forum emails.
-Currently, SparkPost and Postmark are supported. SendGrid will be added at a later date.
+Currently, SparkPost, Postmark and Mandrill are supported. SendGrid will be added at a later date.
 
 Requirements
 -
